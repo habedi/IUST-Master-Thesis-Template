@@ -1,0 +1,38 @@
+\documentclass[twoside,openany,msc]{IUST-Thesis}
+\input{premeable}
+
+\begin{document}
+\tracinggroups=1
+\pagenumbering{harfi}
+\input{pages/faTitle}
+\tableofcontents
+\newpage
+\listoffigures \newpage
+\listoftables \newpage
+\addcontentsline{toc}{chapter}{\listalgorithmname}
+\listofalgorithms \newpage
+\input{pages/acronyms}
+\pagestyle{fancy}
+
+\include{chapters/1}
+\include{chapters/2}
+\include{chapters/3}
+\include{chapters/4}
+\include{chapters/5}
+
+\pagestyle{empty}
+{
+\onehalfspacing
+\bibliographystyle{ieeetr-fa}%{acm-fa}
+\bibliography{references/references}
+\nocite{*}
+}
+\pagestyle{fancy}
+\onehalfspacing
+\include{pages/dicfa2en}
+\include{pages/dicen2fa}
+%\include{pages/appendix1}
+\printindex
+\input{pages/enTitle}
+\label{LastPage}
+\end{document}

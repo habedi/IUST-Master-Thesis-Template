@@ -157,3 +157,62 @@ pythontex-files-*/
 
 # Latexian
 TSWLatexianTemp*
+
+# diretories
+TempDir
+build
+certs
+
+# junk files
+*~
+*#
+*.bak
+*.pyc
+*.com
+*.org
+*.gr
+*.cc
+
+# virtualenvironment
+mven
+mevenv
+menv
+
+# test + debug
+idle.py
+main2.py
+main1.py
+doc
+docs2
+192_*
+x_*
+X_*
+*.pid
+*.tar
+*~
+
+#log files
+*.log
+*.profile
+
+# latex temp files
+*.aux
+*.idx
+*.xml
+*.ptc
+*.gz
+*.bcf
+*.toc
+*.ind
+*.ist
+*(busy)
+*.bbl
+*.out
+*.fls
+*.fdb_latexmk
+*.pyxcode
+*.ilg
+*.aex
+*.df
+*.def
+*.pyg
