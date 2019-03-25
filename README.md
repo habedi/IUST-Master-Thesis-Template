@@ -1,8 +1,11 @@
 # IUST-Master-Thesis-Template
-AN IRAN UNIVERSITY OF SCIENCE AND TECHNOLOGY MASTER THESIS TEMPLATE IN TEX
+
+An Iranian University of Science and Technology's (IUST) master's thesis template in LaTeX
 
 <div dir=rtl>
+
 # نمونه پایان‌نامه ارشد دانشگاه علم و صنعت
+
 <div dir=ltr>
 
 | پوشه | توضیحات |
